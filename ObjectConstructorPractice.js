@@ -12,7 +12,9 @@ class Book {
     }
 }
 
+
 let myLibrary = [];
+
 
 const theHobbit = new Book("The Hobbit", "J.R.R Tolkein", 310, true);
 myLibrary.push(theHobbit);
@@ -33,7 +35,6 @@ function validateform(event) {
 
     if (readcheckbox.checked) {
         addBookToLibrary(titleInput.value, authorInput.value, pagesInput.value, true);
-        console.log(54);
     } else {
         addBookToLibrary(titleInput.value, authorInput.value, pagesInput.value, false);
     }

@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
   }
   
   .container {
@@ -14,11 +15,27 @@
 
 .sidebar {
     background-color: #64748b;
+    min-width: 200px;
 }
 
-.input,
-button {
+h2 {
+    margin-bottom: 25px;
+}
+
+.checkbox {
+    margin-top: 5px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.input {
     margin: 5px;
+    background-color: #f8fafc;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
 }
 
 footer {
@@ -51,6 +68,8 @@ footer {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: #e2e8f0;
     box-shadow: 0px 5px 10px #475569;
+    gap: 10px;
+    border-radius: 10%;
 }
 
 bR {
@@ -81,4 +100,13 @@ bR {
 
 .trash {
     background-image: url(./fire.svg);
+}
+
+button {
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    background-color: #1e293b;
+    margin-top: 20px;
+    color: #f1f5f9;
 }
